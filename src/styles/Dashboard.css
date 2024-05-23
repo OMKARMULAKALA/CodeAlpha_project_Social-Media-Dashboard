@@ -1,0 +1,22 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+  color: white; /* Ensure text is readable against the background */
+}
+
+.dashboard > div {
+  width: 80%;
+  margin-bottom: 20px;
+}
